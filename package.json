@@ -10,6 +10,9 @@
     "dev": "concurrently\"npm run server\"\"npm run client\"",
     "heroku-postbuld": "cd portfolio && npm install --only=dev && npm run build"
   },
+  "engines": {
+    "node": "10.12.0"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
